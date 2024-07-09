@@ -1,0 +1,71 @@
+*{
+ margin: 0;
+ scrollbar-width: none;
+}
+.header{
+    font-size: 50px;
+    font-family: Impact;
+    font-weight: 200;
+    font-style: oblique;
+    border: solid black 2px;
+    color: rgb(237, 237, 237);
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0.1px;
+}
+.content{
+    background-color: rgb(45,45,45);
+    border: solid 5px black;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.rapper{
+    background-color: rgb(55,55,55);
+    border: solid 2px black;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50vh;
+    width: 40vw;
+    padding-top: 5px;
+}
+#Eminem:hover{
+    background-image: url(https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b);
+    font-size: 0;
+    cursor: pointer;
+}
+#Drake:hover{
+    background-image: url(https://lcmagalhaes.com.br/wp-content/uploads/2023/04/drake.jpg);
+    font-size: 0;
+    cursor: pointer;
+}
+#Travis:hover{
+    background-image: url(https://media.npr.org/assets/img/2021/11/16/gettyimages-1235223332_sq-018166785ff8ed3e47c6e014e0f58618be107ddf.jpg);
+    background-size: cover;
+    font-size: 0;
+    cursor: pointer;
+}
+#Kanye:hover{
+    background-image: url(https://www.suno.com.br/wp-content/uploads/2021/06/kayne-West.jpg);
+    background-size: cover;
+    font-size: 0;
+    cursor: pointer;
+}
+@media(max-width: 700px){
+    .rapper{font-size: 15px;}
+    .rapper{background-size: cover;}
+    #Drake{background-size: 275px 450px;}
+    #Kanye:hover{background-size: 275px 400px;}
+}

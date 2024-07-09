@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipoca</title>
+    <style>
+        *{
+         background-color: black;
+         scrollbar-width: none;
+         margin: 0;
+        }
+        #oi{
+         background-size: cover;
+         font-size: 200px;
+         color: white;
+         margin: 0;
+         height: 900px;
+         display: flex;
+         justify-content: center;
+         justify-self: center;
+         align-items: center;
+         font-weight: 900;
+         font-style: italic;
+         background-color:black;
+        }
+    </style>
+</head>
+<body>
+ <div id="oi" onclick="oioi()">Nada aqui.</div>
+ <script>
+ function oioi(){
+  var oi = document.getElementById("oi");
+  oi.style.color = "black";
+  oi.innerHTML = "P  I  P  O  C  A";
+  oi.title = "pipoca selvagem";
+  oi.onclick = window.open('https://youtu.be/L8XbI9aJOXk');
+  oi.style.backgroundImage = "url(https://i.pinimg.com/originals/9c/b2/86/9cb2865cbde7b753a6f1211dd6b265bf.gif)";
+ }
+ </script>
+</body>
+</html>

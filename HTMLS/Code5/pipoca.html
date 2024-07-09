@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi</title>
+</head>
+<body id="pipoq">
+    <!-- Intro HTML aqui -->
+<style>
+h1{
+color: white;
+font-size: 100px;
+font-family: arial;
+background-color: rgb(182, 182, 182);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+body{
+background-color: black;
+}
+</style>
+<h1  id ="pipoq2" onclick="pipoq()" onmouseleave="pipoq2()">Sem pipoca aqui</h1>
+<script>
+function pipoq(){
+var pipoq = document.getElementById("pipoq");
+pipoq.style.backgroundImage = "url(https://pbs.twimg.com/media/Fd3y498WYAAJJG7?format=jpg&name=large)"
+pipoq.style.backgroundSize = "cover";
+}
+function pipoq2(){
+var pipoq = document.getElementById("pipoq2");
+pipoq.innerHTML = "PIPOQUEIRA!";
+pipoq.style.color = "black";
+pipoq.style.backgroundColor = "transparent";
+}
+</script>
+</body>
+</html>

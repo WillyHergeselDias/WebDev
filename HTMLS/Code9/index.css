@@ -1,0 +1,49 @@
+#main{
+ background-color: black;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ font-family: arial;
+ font-size: 60px;
+ border: solid black 5px;
+ margin: 0;
+}
+#header{
+ background-color: rgb(14, 14, 14); 
+ color: white;
+ font-family: arial;
+ font-style: italic;
+ position: sticky;
+ top: 0.1px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 70px;
+ letter-spacing: 15px;
+}
+body{
+background-color: black;
+}
+button{
+ background-color: rgb(12, 12, 12);
+ color: white;
+ height: 100px;
+ width: 400px;
+ margin-top: 15px;
+ font-size: 45px;
+}
+h1{
+font-size: 50px;
+}
+input{
+ background-color: rgb(25, 25, 25);
+ color: white;
+ font-size: 40px;
+}
+#resultado{
+background-color: rgb(27, 26, 26);
+color: rgb(193, 193, 193);
+border: solid rgb(32, 32, 32) 2px;
+}
